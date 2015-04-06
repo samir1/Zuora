@@ -1,0 +1,26 @@
+The IT department wants to create a web-based application to manage IT requirements.
+
+ 
+
+·         A requirement can have one parent requirement, and multiple children requirements.
+
+·         A requirement hierarchy may have more than 5 levels in depth.
+
+·         Each requirement has one or more owners.  Each requirement owner has edit access to the requirement itself and all its descendant requirements.
+
+ 
+
+Please create an Eclipse project (or other IDEs) that contains the following: 
+
+·         Database tables that can be used to model the requirements, users and accesses.  
+
+·         Necessary Java classes that model the above object and relationships.
+
+·         A Java method that returns all requirements that a user has access to, with optimal performance.
+
+·         Java unit tests for the above method.  
+
+
+Assumptions:
+1. A requirement’s parent requirement cannot be changed.
+2. Owners can be added and deleted after the requirement is created.
